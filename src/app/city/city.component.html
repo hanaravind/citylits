@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-md-12 col-lg-12">
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+    </div>
+    <div class="col-md-12 col-lg-12">
+        <agm-map [latitude]="lat" [longitude]="lng" [zoom]="3" [rotateControl]="true">
+            <agm-marker [latitude]='51.673858' [longitude]='7.815982'></agm-marker>
+        </agm-map>
+    </div>
+</div>
